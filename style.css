@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: var(--color-background);
+}
+
+:root{
+    --color-main: #808080;
+    --color-background: #FFF3E2;
+    --color-secondary: #FFE5CA;
+
+
+    --font-style1:  'Merriweather', serif;
+    --font-style2: 'Poppins', sans-serif;
+    --font-style3: 'Noto Serif', serif;
+
+    --font-heading: 2rem;
+    --font-nav: 14px
+}
+
+.middle{
+    float: right;
+}
+.end{
+    margin-left: 1rem;
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    align-items: center;
+    position: fixed;
+    height: 4rem;
+    width: 100vw;
+    background-color: var(--color-background);
+    font-family: var(--font-style3);
+    font-weight: 400;
+}
+
+.navbar-head-right a img{
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-title{
+    color: var(--color-main);
+    font-size: var(--font-nav);
+}
+
+.landing-section{
+    display: flex;
+    justify-content: center;
+}
+.landing-header{
+    padding-top: 4rem;
+    font-family: var(--font-style1);
+    font-size: var(--font-heading);
+}
+
+.landing-header .main-img{
+    width: 100%;
+    height: 17em;
+    background-color: red;
+}
+
+/* .landing-parent{
+    display: flex;
+    flex-direction: column;
+} */
+.text-bx{
+    position: absolute;
+    top: 30rem;
+    background: transparent;
+}
